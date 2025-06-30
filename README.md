@@ -8,7 +8,7 @@ This app allows users to join using a username, send and receive messages in rea
 
 ## 🚀 Live Demo
 
- Link:https://chat-app-teal-pi-59.vercel.app/
+ Link:https://chat-app-6ik2.vercel.app/
 ---
 
 ## 🧰 Tech Stack
