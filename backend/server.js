@@ -13,7 +13,7 @@ app.use(express.json());
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 
-connectDB(); // connect to MongoDB
+connectDB(); // connect to mongodb
 
 wss.on('connection', (socket) => {
     let username = "";
@@ -49,7 +49,9 @@ wss.on('connection', (socket) => {
         console.log(`${username} disconnected`);
     });
 });
+const PORT = process.env.PORT || 5000;
 
-server.listen(5000, () => {
-    console.log('Server running on http://localhost:5000');
+server.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
 });
+
