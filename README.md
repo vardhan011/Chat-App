@@ -8,8 +8,7 @@ This app allows users to join using a username, send and receive messages in rea
 
 ## 🚀 Live Demo
 
-- 🌐 Frontend: https://your-frontend-link.vercel.app
-- 🔗 Backend: https://your-backend-link.onrender.com
+ Link:https://chat-app-teal-pi-59.vercel.app/
 
 (Replace the above URLs with your actual deployed links)
 
@@ -75,11 +74,6 @@ Access it at: http://localhost:5173
 
 ---
 
-## 📸 Screenshots
-
-(Optional: Add screenshots of the Join screen and Chat screen here)
-
----
 
 ## 📄 Author
 
@@ -89,6 +83,4 @@ GitHub: https://github.com/vardhan011
 
 ---
 
-## 📬 Submission Info
 
-Submitted for the **Full-Stack Intern Assignment** at **Kuvaka Tech**
