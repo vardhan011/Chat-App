@@ -6,7 +6,8 @@ function Join({ setUsername, setSocket }) {
     const handleJoin = () => {
         if (nameInput.trim() === '') return;
 
-        const ws = new WebSocket('ws://localhost:5000');
+        const ws = new WebSocket(import.meta.env.VITE_WS_URL);
+
         ws.onopen = () => {
             ws.send(JSON.stringify({ type: 'join', username: nameInput }));
             setUsername(nameInput);
